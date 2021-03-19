@@ -1,0 +1,15 @@
+<div style="color:black;text-align:center;background-color:moccasin;font-size:20px;border-radius: 7px;">MARKALAR</div>
+  
+
+<table  class="table">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Marka</th>
+    </tr>
+  </thead>
+  <tr *ngFor="let brand of brands">
+    <td>{{brand.brandId}}</td>
+    <td>{{brand.brandName}}</td>
+  </tr>
+</table>
